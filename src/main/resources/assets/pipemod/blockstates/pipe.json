@@ -193,6 +193,65 @@
         "x": 180,
         "y": 270
       }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "_comment": "North Connection",
+        "model": "pipemod:block/pipe_side_connection"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "_comment": "East Connection",
+        "model": "pipemod:block/pipe_side_connection",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "_comment": "South Connection",
+        "model": "pipemod:block/pipe_side_connection",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "_comment": "West Connection",
+        "model": "pipemod:block/pipe_side_connection",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "_comment": "Up Connection",
+        "model": "pipemod:block/pipe_side_connection",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "_comment": "Down Connection",
+        "model": "pipemod:block/pipe_side_connection",
+        "x": 90
+      }
     }
   ]
 }
