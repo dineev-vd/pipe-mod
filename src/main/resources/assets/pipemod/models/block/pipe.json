@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
 	"textures": {
 		"0": "pipemod:block/pipe",
 		"particle": "pipemod:block/pipe"

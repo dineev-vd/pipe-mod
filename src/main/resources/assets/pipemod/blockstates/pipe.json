@@ -2,7 +2,148 @@
   "multipart": [
     {
       "apply": {
-        "model": "pipemod:block/pipe"
+        "_comment": "North-West Lower Corner",
+        "model": "pipemod:block/corner"
+      }
+    },
+    {
+      "apply": {
+        "_comment": "South-West Lower Corner",
+        "model": "pipemod:block/corner",
+        "x": 90
+      }
+    },
+    {
+      "apply": {
+        "_comment": "South-West Upper Corner",
+        "model": "pipemod:block/corner",
+        "x": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "North-West Upper Corner",
+        "model": "pipemod:block/corner",
+        "x": 270
+      }
+    },
+    {
+      "apply": {
+        "_comment": "South-East Lower Corner",
+        "model": "pipemod:block/corner",
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "North-East Lower Corner",
+        "model": "pipemod:block/corner",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "North-East Upper Corner",
+        "model": "pipemod:block/corner",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "South-East Upper Corner",
+        "model": "pipemod:block/corner",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "West-Down Edge",
+        "model": "pipemod:block/edge"
+      }
+    },
+    {
+      "apply": {
+        "_comment": "West-South Edge",
+        "model": "pipemod:block/edge",
+        "x": 90
+      }
+    },
+    {
+      "apply": {
+        "_comment": "West-Up Edge",
+        "model": "pipemod:block/edge",
+        "x": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "West-North Edge",
+        "model": "pipemod:block/edge",
+        "x": 270
+      }
+    },
+    {
+      "apply": {
+        "_comment": "East-Down Edge",
+        "model": "pipemod:block/edge",
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "East-North Edge",
+        "model": "pipemod:block/edge",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "East-Up Edge",
+        "model": "pipemod:block/edge",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "East-South Edge",
+        "model": "pipemod:block/edge",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "apply": {
+        "_comment": "North-Down Edge",
+        "model": "pipemod:block/edge",
+        "y": 90
+      }
+    },
+    {
+      "apply": {
+        "_comment": "North-Up Edge",
+        "model": "pipemod:block/edge",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "apply": {
+        "_comment": "South-Down Edge",
+        "model": "pipemod:block/edge",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "_comment": "South-Up Edge",
+        "model": "pipemod:block/edge",
+        "x": 180,
+        "y": 270
       }
     }
   ]

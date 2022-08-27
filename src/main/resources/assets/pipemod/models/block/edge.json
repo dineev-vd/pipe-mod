@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"0": "pipemod:block/pipe",
+		"particle": "pipemod:block/pipe"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 5],
+			"to": [5, 5, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"east": {"uv": [1, 0, 7, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"west": {"uv": [1, 0, 7, 1], "texture": "#0"},
+				"up": {"uv": [1, 0, 7, 1], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [1, 0, 7, 1], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "corners",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "edges",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
