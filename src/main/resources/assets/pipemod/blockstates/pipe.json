@@ -59,12 +59,20 @@
       }
     },
     {
+      "when": {
+        "west": "false",
+        "down": "false"
+      },
       "apply": {
         "_comment": "West-Down Edge",
         "model": "pipemod:block/edge"
       }
     },
     {
+      "when": {
+        "west": "false",
+        "south": "false"
+      },
       "apply": {
         "_comment": "West-South Edge",
         "model": "pipemod:block/edge",
@@ -72,6 +80,10 @@
       }
     },
     {
+      "when": {
+        "west": "false",
+        "up": "false"
+      },
       "apply": {
         "_comment": "West-Up Edge",
         "model": "pipemod:block/edge",
@@ -79,6 +91,10 @@
       }
     },
     {
+      "when": {
+        "west": "false",
+        "north": "false"
+      },
       "apply": {
         "_comment": "West-North Edge",
         "model": "pipemod:block/edge",
@@ -86,6 +102,10 @@
       }
     },
     {
+      "when": {
+        "east": "false",
+        "down": "false"
+      },
       "apply": {
         "_comment": "East-Down Edge",
         "model": "pipemod:block/edge",
@@ -93,6 +113,10 @@
       }
     },
     {
+      "when": {
+        "east": "false",
+        "north": "false"
+      },
       "apply": {
         "_comment": "East-North Edge",
         "model": "pipemod:block/edge",
@@ -101,6 +125,10 @@
       }
     },
     {
+      "when": {
+        "east": "false",
+        "up": "false"
+      },
       "apply": {
         "_comment": "East-Up Edge",
         "model": "pipemod:block/edge",
@@ -109,6 +137,10 @@
       }
     },
     {
+      "when": {
+        "east": "false",
+        "south": "false"
+      },
       "apply": {
         "_comment": "East-South Edge",
         "model": "pipemod:block/edge",
@@ -117,6 +149,10 @@
       }
     },
     {
+      "when": {
+        "north": "false",
+        "down": "false"
+      },
       "apply": {
         "_comment": "North-Down Edge",
         "model": "pipemod:block/edge",
@@ -124,6 +160,10 @@
       }
     },
     {
+      "when": {
+        "north": "false",
+        "up": "false"
+      },
       "apply": {
         "_comment": "North-Up Edge",
         "model": "pipemod:block/edge",
@@ -132,6 +172,10 @@
       }
     },
     {
+      "when": {
+        "south": "false",
+        "down": "false"
+      },
       "apply": {
         "_comment": "South-Down Edge",
         "model": "pipemod:block/edge",
@@ -139,6 +183,10 @@
       }
     },
     {
+      "when": {
+        "south": "false",
+        "up": "false"
+      },
       "apply": {
         "_comment": "South-Up Edge",
         "model": "pipemod:block/edge",
