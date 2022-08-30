@@ -14,13 +14,15 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
 
-public class Pipe extends SixWayBlock {
+public class PipeBlock extends SixWayBlock {
     private static final AbstractBlock.Properties props = AbstractBlock.Properties.of(Material.DIRT, MaterialColor.DIRT).strength(0.5F).sound(SoundType.GRAVEL);
 
-    public Pipe() {
+    public PipeBlock() {
         super(0.25F, props);
         this.registerDefaultState(this.stateDefinition.any().setValue(NORTH, Boolean.valueOf(false)).setValue(EAST, Boolean.valueOf(false)).setValue(SOUTH, Boolean.valueOf(false)).setValue(WEST, Boolean.valueOf(false)).setValue(UP, Boolean.valueOf(false)).setValue(DOWN, Boolean.valueOf(false)));
     }
+
+
 
     protected void createBlockStateDefinition(StateContainer.Builder<Block, BlockState> stateBuilder) {
         stateBuilder.add(NORTH, EAST, SOUTH, WEST, UP, DOWN);
